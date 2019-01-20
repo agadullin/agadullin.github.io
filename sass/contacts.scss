@@ -1,0 +1,32 @@
+.contacts {
+
+  &__map {
+    width: 50%;
+    height: 300px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 30px;
+  }
+
+  &__telephone {
+    font: 1.2rem "Montserrat", Serif;
+  }
+
+  &__email {
+    font: 1.2rem "Montserrat", Serif;
+  }
+
+  &__address {
+    font: 1.2rem "Montserrat", Serif;
+  }
+}

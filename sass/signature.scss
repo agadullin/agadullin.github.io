@@ -1,0 +1,19 @@
+.signature {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 20px;
+
+  &__line {
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    border: none;
+  }
+
+  &__name {
+    margin-left: 10px;
+    font: 1.5rem "Kaushan Script", Serif;
+  }
+}

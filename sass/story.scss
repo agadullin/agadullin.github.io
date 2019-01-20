@@ -1,0 +1,32 @@
+.story {
+
+    &__text {
+        display: block;
+        margin-top: 45px;
+        text-align: center;
+        font: 1rem "Roboto", serif;
+        color: #999999;
+    }
+
+    &__containerImage {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 1200px;
+        width: 100%;
+        margin: 100px auto 0;
+    }
+
+    &__image {
+        width: 100%;
+        max-width: 380px;
+        height: 250px;
+        margin-top: 10px;
+        background: url(../img/img2_story.png) center/cover;
+        
+        &:hover {
+            background: linear-gradient(to top, rgba(231,131,128,0.6), rgba(234,209,131,0.6)), url(../img/img2_story.png) center/cover;
+        }
+    }
+}

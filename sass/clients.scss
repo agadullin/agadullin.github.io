@@ -1,0 +1,12 @@
+.clients {
+  padding: 5px 0 120px;
+  background: url("../img/bg__clients.png") center/cover no-repeat;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 85px;
+  }
+}

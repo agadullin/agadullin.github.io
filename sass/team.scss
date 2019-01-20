@@ -1,0 +1,71 @@
+.team {
+
+  &__text {
+    display: block;
+    margin-top: 45px;
+    font: 0.7rem "Roboto", Serif;
+    color: #999999;
+    text-align: center;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 90px;
+  }
+
+  &__block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__image {
+    width: 380px;
+    height: 470px;
+    background: url("../img/img_team.png");
+
+    &:hover .team__items {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+    }
+  }
+
+  &__items {
+    display: none;
+    width: 220px;
+    margin: 85% auto 0;
+  }
+
+  &__icon {
+    width: 56px;
+    height: 56px;
+    margin-left: 2px;
+    border-radius: 5px;
+    background-color: #fce38a;
+    text-align: center;
+
+    &:hover {
+      background-color: #f38181;
+      .faTeam {
+        color: #ffffff;
+      }
+    }
+  }
+
+  &__name {
+    margin-top: 30px;
+    text-align: center;
+    font: bold 0.8rem "Montserrat", Serif;
+    text-transform: uppercase;
+  }
+
+  &__position {
+    margin-top: 10px;
+    text-align: center;
+    font: 0.8rem "Roboto", Serif;
+    color: #a0a0a0;
+  }
+}

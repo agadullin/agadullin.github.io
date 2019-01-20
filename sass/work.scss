@@ -1,0 +1,15 @@
+.work {
+
+  &__wrap {
+    margin-top: 100px;
+  }
+
+  &__text {
+    display: block;
+    margin-top: 45px;
+    font: 0.7rem "Roboto", Serif;
+    color: #999999;
+    text-align: center;
+  }
+
+}

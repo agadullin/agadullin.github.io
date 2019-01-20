@@ -1,0 +1,12 @@
+.services {
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1150px;
+    width: 100%;
+    margin: 50px auto;
+  }
+}

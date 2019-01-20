@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__item {
+        margin-left: 50px;
+
+        :hover {
+            border-bottom: 2px solid #fce38a;
+            color: #fce38a;
+        }
+    }
+
+    &__link {
+        font: bold 0.8rem "Montserrat", serif;
+        color: #ffffff;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+}

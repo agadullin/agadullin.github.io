@@ -1,0 +1,47 @@
+.main {
+    padding: 40px 0 230px;
+    background: url(../img/bg_main.png) center/cover no-repeat;
+
+    &__subtitle {
+        display: block;
+        margin-top: 150px;
+        text-align: center;
+        font: 4.5rem "Kaushan Script", serif;
+        color: #ffffff;
+    }
+
+    &__title {
+        display: block;
+        margin-top: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        font: bold 9.4rem "Montserrat", serif;
+        color: #ffffff;
+    }
+
+    &__line {
+        display: block;
+        margin: 73px auto 0;
+        background-color: #ffffff;
+        width: 50px;
+        height: 3px; 
+    }
+
+    &__button {
+        display: block;
+        margin: 50px auto;
+        width: 160px;
+        height: 40px;
+        background: none;
+        border: 3px solid #ffffff;
+        font: bold 0.9rem "Montserrat", serif;
+        color: #ffffff;
+        text-transform: uppercase;
+        
+        &:hover {
+            border: none;
+            background: #ffffff;
+            color: #eec688;
+        }
+    }
+}
