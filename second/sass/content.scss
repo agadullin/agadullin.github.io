@@ -1,0 +1,24 @@
+.content {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+  &__title {
+    display: block;
+    margin-top: 39px;
+    font: bold 1rem "Montserrat", Serif;
+    text-transform: uppercase;
+    color: #29323c;
+  }
+
+  &__text {
+    display: block;
+    margin-top: 26px;
+    font: 0.8rem "Open Sans", Serif;
+    text-align: center;
+    color: #656a6f;
+  }
+}
+

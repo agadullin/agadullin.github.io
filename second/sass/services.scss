@@ -1,0 +1,14 @@
+.services {
+  padding: 91px 0 82px;
+  background: url("../img/service_background.png") top/cover no-repeat;
+
+  &__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    width: 100%;
+    margin: 59px auto 0;
+  }
+}

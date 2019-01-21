@@ -1,0 +1,14 @@
+.partners {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  background: #f5f5f5;
+
+  &__image {
+    margin: 10px;
+  }
+}

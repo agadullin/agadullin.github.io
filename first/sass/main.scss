@@ -1,0 +1,47 @@
+.main {
+  width: 100%;
+  background-position: center;
+  background-image: url(../img/background_header.png);
+  background-size: cover;
+
+  &-content {
+    padding-top: 265px;
+    padding-bottom: 111px;
+    text-align: center;
+
+    &__button {
+      display: block;
+      width: 202px;
+      margin: 55px auto;
+      padding: 24px 35px;
+      font-size: 18px;
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid #fff;
+    }
+
+    &__h1 {
+      display: block;
+      padding-top: 52px;
+      font-size: 60px;
+      color: #ffffff;
+      text-align: center;
+    }
+
+    &__h2 {
+        display: block;
+        font-size: 30px;
+        color: #ffffff;
+        letter-spacing: 12px;
+        text-align: center;
+
+      &_size_m{
+        display: block;
+        padding-top: 52px;
+        font-size: 30px;
+        color: #ffffff;
+        text-align: center;
+      }
+    }
+  }
+}

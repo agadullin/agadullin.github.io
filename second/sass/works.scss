@@ -1,0 +1,15 @@
+.works {
+  padding-top: 91px;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  &__link {
+      text-decoration: none;
+  }
+}

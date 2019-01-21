@@ -1,0 +1,20 @@
+.content {
+
+  &__title {
+    display: block;
+    margin-top: 32px;
+    font-size: 30px;
+    color: red;
+  }
+
+  &__p {
+    display: block;
+    margin-top: 31px;
+    font-size: 18px;
+    color: #9a9a9a;
+  }
+
+  &__line {
+    margin-top: 32px;
+  }
+}

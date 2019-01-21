@@ -1,0 +1,32 @@
+.team {
+  padding: 100px 0;
+  background: url("../img/team_background.png") top/cover;
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  &__btn {
+    display: block;
+    width: 200px;
+    height: 40px;
+    margin: 100px auto 0;
+    font: bold 0.9rem "Montserrat", Serif;
+    text-transform: uppercase;
+    border: 1px solid #f2f2f2;
+    border-radius: 20px;
+    background: none;
+    color: #f2f2f2;
+
+    &:hover {
+      background: #525961;
+      border: none;
+    }
+  }
+}

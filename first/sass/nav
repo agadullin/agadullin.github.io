@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 680px;
+
+  &__item {
+    display: inline;
+  }
+
+  &__link {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+  }
+}
+

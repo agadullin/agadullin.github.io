@@ -1,0 +1,28 @@
+.container {
+  margin-bottom: 10px;
+  padding-bottom: 35px;
+  background: #caced0;
+
+  &__name {
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+    font: bold 0.95rem "Montserrat", Serif;
+  }
+
+  &__position {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    font: 0.8rem "Montserrat", Serif;
+  }
+
+  &__social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px auto 0;
+    align-items: center;
+    width: 145px;
+  }
+}

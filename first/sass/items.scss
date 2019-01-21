@@ -1,0 +1,16 @@
+.items {
+  width: 100%;
+  padding-top: 60px;
+  background-image: url(../img/img_sectione2_background.png);
+  background-size: cover;
+  background-position: center;
+
+  &-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 1173px;
+    margin: 60px auto 0;
+    padding-bottom: 132px;
+  }
+}

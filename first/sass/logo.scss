@@ -1,0 +1,12 @@
+.logo {
+
+  &__text {
+    font-size: 48px;
+    color: red;
+
+    &_size_m {
+      font-size: 36px;
+      color: red;
+    }
+  }
+}

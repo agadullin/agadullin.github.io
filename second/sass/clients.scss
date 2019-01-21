@@ -1,0 +1,42 @@
+.clients {
+  padding: 100px 0;
+
+  &-wrap {
+    margin-top: 60px;
+  }
+
+  &__text {
+    display: block;
+    text-align: center;
+    font: 0.9rem "Open Sans", Serif;
+    color: #434d59;
+  }
+
+  &__sing {
+    display: block;
+    margin-top: 23px;
+    text-align: center;
+    font: bold 2.5rem "Montserrat", Serif;
+    color: #434d59;
+  }
+
+  &__avatar {
+    display: block;
+    margin: 19px auto 0;
+  }
+
+  &__name {
+    display: block;
+    margin-top: 14px;
+    text-align: center;
+    font: bold 0.85rem "Montserrat", Serif;
+    color: #29323c;
+  }
+
+  &__position {
+    display: block;
+    text-align: center;
+    font: 0.8rem "Montserrat", Serif;
+    color: #696d73;
+  }
+}

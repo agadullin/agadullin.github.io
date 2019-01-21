@@ -1,0 +1,26 @@
+.products {
+
+  &__title {
+    display: block;
+    font-size: 40px;
+    text-align: center;
+    color: #333333;
+  }
+
+  &__line {
+    margin: 60px auto 28px;
+    border-color: red;
+
+    &_down {
+      margin: 28px auto 0;
+      border-color: red;
+    }
+  }
+
+  &__content {
+    width: 1173px;
+    margin: 0 auto 50px;
+    padding-top: 60px;
+    text-align: center;
+  }
+}

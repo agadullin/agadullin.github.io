@@ -1,0 +1,41 @@
+.title {
+  margin-bottom: 60px;
+
+  &__main {
+    display: block;
+    text-align: center;
+    font: bold 1.5rem "Myriad Pro", Serif;
+    text-transform: uppercase;
+    color: #29323c;
+
+    &_white {
+      color: #f2f2f2;
+    }
+  }
+
+  &__text {
+    display: block;
+    margin-top: 25px;
+    text-align: center;
+    font: 0.9rem "Open Sans", Serif;
+    color: #7e8185;
+
+    &_white {
+      color: #dadcdc;
+    }
+  }
+
+  &__line {
+    width: 40px;
+    height: 2px;
+    margin: 19px auto 0;
+    color: #525961;
+    background-color: #525961;
+    border: none;
+
+    &_white {
+      color: #d5d7d8;
+      background-color: #d5d7d8;
+    }
+  }
+}

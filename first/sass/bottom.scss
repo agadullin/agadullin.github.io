@@ -1,0 +1,25 @@
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &__button {
+    display: block;
+    width: 170px;
+    height: 51px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+    border: 1px solid #333333;
+    background: none;
+
+    &_read-more {
+      margin-top: 67px;
+    }
+
+    &_submit {
+      width: 270px;
+      background: #fff;
+    }
+  }
+}
